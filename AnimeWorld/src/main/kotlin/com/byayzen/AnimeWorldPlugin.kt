@@ -1,12 +1,12 @@
-// ! Bu araç @ByAyzen tarafından | @CS-Karma için yazılmıştır.
+// ! Bu araç @ByAyzen tarafından | @cs-karma için yazılmıştır.
 package com.byayzen
 
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 import com.lagradost.cloudstream3.plugins.Plugin
 
 @CloudstreamPlugin
-class WebCricPlugin: Plugin() {
+class AnimeWorldPlugin: Plugin() {
     override fun load() {
-        registerMainAPI(WebCric())
+        registerMainAPI(AnimeWorld())
     }
 }
